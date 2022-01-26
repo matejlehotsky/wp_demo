@@ -1,0 +1,7 @@
+name: wpdemo
+recipe: wordpress
+config:
+  php: '7.4'
+  via: apache:2.4
+  webroot: .
+  database: mariadb
